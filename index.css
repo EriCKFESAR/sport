@@ -1,0 +1,52 @@
+.bg-black{
+    background-color: black;
+}
+#sport{
+    position: relative;
+}
+#sport .carousel-item img{
+    height: 550px;
+    object-fit: cover;
+}
+.carousel + div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+#prio{
+    background: black url(resours/bg-priorities.jpg) center top / cover;
+    min-height: 800px;
+}
+.bg-black05{
+    background-color: #0009;
+}
+#nature_img{
+    min-height: 400px;
+    padding: 0 !important;
+}
+#nature_img img{
+    object-fit: cover;
+}
+#buy{
+    background: black url(resours/bg-buy.jpg) center top / cover;
+    min-height: 500px;
+}
+.text-shadow{
+    text-shadow: 0 0 10px #0005;
+}
+.list-style-none{
+    list-style: none;
+}
+.icono{
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
+}
+.icono:hover{
+    transform: scale(0.9);
+    opacity: 0.4;
+}
